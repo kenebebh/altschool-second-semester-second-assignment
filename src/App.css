@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #242f44;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,14 +28,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 .App-nav-li {
   display: flex;
   justify-content: space-around;
@@ -93,14 +86,23 @@
 .pagination .active {
   background-color: #5ab1bb;
 }
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 .card {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  background-color: red;
+  background-color: #4169e1;
   margin: 1rem 1rem;
   padding: 1rem;
   max-width: 300px;
+  border-radius: 10px;
+}
+.card-image {
+  border-radius: 50%;
 }
